@@ -1,0 +1,157 @@
+<html>
+
+<head>
+<title>Celtec Games Homepage</title>
+</head>
+
+<link href="CGstyles.css" rel="stylesheet" type="text/css">
+<body>
+<!-- The page div will handle the background colour of the main content, this will be consistent across all pages --> 
+<div id="page">
+
+<img src="images/Banner.png" Width="1000"alt="Celtec Games Banner Image">
+<!-- The navigation div will contain the website navigation bar, this will be consistent across pages -->
+<div id="navigation">
+
+
+<h2><a href="index.htm">Homepage</a> -
+<a href="blog.htm">Blog</a> -
+<a href="aboutus.htm">About Us</a> -
+<a href="products.htm">Products</a> -
+<a href="contactus.htm">Contact Us</a> -</h2>
+
+<!-- This closes the 'navigation' div tag -->
+</div>
+
+<!-- The maincontent div will contatin the content for each page, this content will change across pages -->
+<div id="maincontent">
+
+<h1>
+  <script>
+    var Digital = new Date();
+    var hours = Digital.getHours();
+
+    if (hours >= 5 && hours <= 11)
+      document.write('<b>Good morning, have a good day!</b>');
+    else if (hours == 12)
+      document.write('<b>It is dinner time, are you hungry?</b>');
+    else if (hours >= 13 && hours <= 17)
+      document.write('<b>Good afternoon, and thanks for visiting.</b>');
+    else if (hours >= 18 && hours <= 20)
+      document.write('<b>Good evening, hope you enjoy the beautiful sunset.</b>');
+    else if (hours >= 21 || hours <= 4)
+      document.write('<b>Thank you for visiting this website, have an amazing night!</b>');
+    else
+      document.write('<b>Wow! Thanks for choosing to visit our website over sleep!</b>');
+  </script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.container {
+  max-width: 950px;      
+  margin: 40px auto;    
+  border-radius: 5px;
+  background-color: #668AE3;
+  padding: 20px;
+float: auto;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background-color: #FFFFFF;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FFFFFF;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #FFFFFF;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #668AE3;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="mailto:22145713@cambria.ac.uk"
+        method="post"
+        enctype="text/plain"
+        onsubmit="this.reset();">
+
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+    </select>
+
+ <label for="topic">Topic</label>
+    <select id="topic" name="topic">
+      <option value="general">General</option>
+      <option value="support">Support</option>
+      <option value="feedback">Feedback</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" 
+              placeholder="Write something.." 
+              style="height:150px"></textarea>
+
+   
+    <input type="submit" value="Submit">
+
+<div style="font-size: 18px; color: #000000;">
+<p>✉️celtecgames123@gmail.com</p>
+<p>📱07700 900456 </p>
+</div>
+
+  </form>
+</div>
+
+<style="text-align:right;"> <a href="https://www.instagram.com/celtecgames0/">
+<img src="images/InstagramIcon.png" alt="Instagram" class="instagram-icon"></a> 
+
+<footer>
+<div style="font-size: 22px; color: #000000; font-weight: bold">
+  <p>Website produced by: Eva Crane | Celtec Games 2026</p>
+</div>
+</footer>
+
+<!-- This closes the 'maincontent' div tag -->
+</div>
+
+<!-- This closes the 'page' div tag -->
+</div>
+
+</body>
+</html>

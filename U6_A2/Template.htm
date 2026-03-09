@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<title>Celtec Games Homepage</title>
+</head>
+
+<link href="CGstyles.css" rel="stylesheet" type="text/css">
+<body>
+<!-- The page div will handle the background colour of the main content, this will be consistent across all pages --> 
+<div id="page">
+
+<img src="images/Banner.png" Width="1000"alt="Celtec Games Banner Image">
+<!-- The navigation div will contain the website navigation bar, this will be consistent across pages -->
+<div id="navigation">
+
+
+<h2><a href="index.htm">Homepage</a> -
+<a href="blog.htm">Blog</a> -
+<a href="aboutus.htm">About Us</a> -
+<a href="products.htm">Products</a> -
+<a href="contactus.htm">Contact Us</a> -</h2>
+
+<!-- This closes the 'navigation' div tag -->
+</div>
+
+<!-- The maincontent div will contatin the content for each page, this content will change across pages -->
+<div id="maincontent">
+
+<h1>
+  <script>
+    var Digital = new Date();
+    var hours = Digital.getHours();
+
+    if (hours >= 5 && hours <= 11)
+      document.write('<b>Good morning, have a good day!</b>');
+    else if (hours == 12)
+      document.write('<b>It is dinner time, are you hungry?</b>');
+    else if (hours >= 13 && hours <= 17)
+      document.write('<b>Good afternoon, and thanks for visiting.</b>');
+    else if (hours >= 18 && hours <= 20)
+      document.write('<b>Good evening, hope you enjoy the beautiful sunset.</b>');
+    else if (hours >= 21 || hours <= 4)
+      document.write('<b>Thank you for visiting this website, have an amazing night!</b>');
+    else
+      document.write('<b>Wow! Thanks for choosing to visit our website over sleep!</b>');
+  </script>
+
+<img src="images/index.jpg"Width="400" Height="300"alt="Gaming">
+
+<style="text-align:right;"> <a href="https://www.instagram.com/celtecgames0/">
+<img src="images/InstagramIcon.png" alt="Instagram" class="instagram-icon"></a> 
+
+<footer>
+<h6>Website produced by: Eva Crane</h6>
+<h6>Celtec Games 2026</h6>
+</footer>
+
+<!-- This closes the 'maincontent' div tag -->
+</div>
+
+<!-- This closes the 'page' div tag -->
+</div>
+
+</body>
+</html>

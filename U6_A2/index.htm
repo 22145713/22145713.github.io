@@ -1,0 +1,81 @@
+<html>
+
+<head>
+<title>Celtec Games Homepage</title>
+</head>
+
+<link href="CGstyles.css" rel="stylesheet" type="text/css">
+<body>
+<!-- The page div will handle the background colour of the main content, this will be consistent across all pages --> 
+<div id="page">
+
+<img src="images/Banner.png" Width="1000"alt="Celtec Games Banner Image">
+<!-- The navigation div will contain the website navigation bar, this will be consistent across pages -->
+<div id="navigation">
+
+
+<h2><a href="index.htm">Homepage</a> -
+<a href="blog.htm">Blog</a> -
+<a href="aboutus.htm">About Us</a> -
+<a href="products.htm">Products</a> -
+<a href="contactus.htm">Contact Us</a> -</h2>
+
+<!-- This closes the 'navigation' div tag -->
+</div>
+
+<!-- The maincontent div will contatin the content for each page, this content will change across pages -->
+<div id="maincontent">
+
+<h1>
+  <script>
+    var Digital = new Date();
+    var hours = Digital.getHours();
+
+    if (hours >= 5 && hours <= 11)
+      document.write('<b>Good morning, have a good day!</b>');
+    else if (hours == 12)
+      document.write('<b>It is dinner time, are you hungry?</b>');
+    else if (hours >= 13 && hours <= 17)
+      document.write('<b>Good afternoon, and thanks for visiting.</b>');
+    else if (hours >= 18 && hours <= 20)
+      document.write('<b>Good evening, hope you enjoy the beautiful sunset.</b>');
+    else if (hours >= 21 || hours <= 4)
+      document.write('<b>Thank you for visiting this website, have an amazing night!</b>');
+    else
+      document.write('<b>Wow! Thanks for choosing to visit our website over sleep!</b>');
+  </script>
+
+<div>
+<img src="images/index.jpg"Width="400" Height="300"alt="Gaming">
+<h6>
+Celtec is a small independent game studio dedicated to creating original games for desktop, mobile, and consoles including PlayStation, Xbox, and Nintendo Switch. Combining talent, creativity, and passion, Celtec develops games that both educate and entertain players of all ages. The team thrives on innovation, vision, and collaboration, empowering people and raising the bar to produce some of the most engaging cross-platform experiences in the country. At Celtec, every game reflects a commitment to quality, fun, and the joy of gaming, making each title a unique experience for children and adults alike.
+</h6>
+</div>
+
+<div><class="video-box">
+<h4>Advantages of Gaming </h4>
+<iframe width="800" height="500" src="https://www.youtube.com/embed/Ox_mxWPHAI8" title="The benefits of video games—changing the way we perceive gaming | Thomas Moak | TEDxYouth@MBJH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>       </p>
+</div>
+<div style="font-size: 20px; color: #000000;">The video explains that video games aren’t just for fun and can actually be good for you. Playing games can improve problem-solving skills, memory, focus, and reaction time. Many games also help with hand-eye coordination and multitasking. Online and multiplayer games encourage teamwork and communication, while challenging games teach patience and perseverance. The video also mentions that gaming can reduce stress and inspire interest in technology and creative careers, as long as it’s played in moderation.
+</div>
+
+</body>
+
+<footer>
+<style="text-align:right;"> <a href="https://www.instagram.com/celtecgames0/">
+<img src="images/InstagramIcon.png" alt="Instagram" class="instagram-icon"></a> 
+
+<div style="font-size: 22px; color: #000000; font-weight: bold">
+  <p>Website produced by: Eva Crane | Celtec Games 2026</p>
+</div>
+</footer>
+
+<!-- This closes the 'maincontent' div tag -->
+</div>
+
+<!-- This closes the 'page' div tag -->
+</div>
+
+</body>
+</html>

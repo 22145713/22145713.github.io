@@ -1,0 +1,89 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #000000;
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2px;
+}
+#page {
+	background-color: #A4C2F4;
+}
+
+#navigation {
+	padding-top: 10px;
+	padding-right: 5px;
+        
+}
+
+#maincontent {
+	overflow: hidden;
+	padding: 5px;
+}
+
+h2 {
+	color: #0000FF;
+}
+
+h3 {
+  color: #0000FF;
+}
+
+h1 {
+	color: #0000FF;
+}
+
+h6 {
+	color: #000000;
+}
+
+ {
+	text-decoration: none;
+	color: #003300;
+}
+a:hover {
+	color: #3C78D8;
+}
+img { 
+  float: left;
+  margin-right: 15px;
+}
+.instagram-icon {
+  float: right;
+  margin-left: 15px;
+}
+li {
+  font-size: 20px;
+  color: #000000;
+}
+iframe {
+   display: block;
+  margin: auto;
+}
+ .aboutus-1 {
+    float: right;
+    margin-right: 15px;
+  }
+ .aboutus-2 {
+    float: left;
+    margin-right: 35px;
+  }
+ .playstation {
+    float: right;
+    margin-right: 35px;
+  }
+ .blog-1 {
+    float: left;
+    margin-right: 15px;
+  }
+ .blog-2 {
+    float: left;
+    margin-right: 15px;
+  }
+
+
+
+
+
+
+
