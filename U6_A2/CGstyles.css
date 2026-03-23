@@ -60,12 +60,12 @@ iframe {
    display: block;
   margin: auto;
 }
- .game1 {
+ .aboutus-1 {
     float: right;
     margin-right: 15px;
   }
- .game2 {
-    float: right;
+ .aboutus-2 {
+    float: left;
     margin-right: 35px;
   }
  .playstation {
